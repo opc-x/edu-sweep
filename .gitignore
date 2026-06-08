@@ -1,0 +1,11 @@
+# 敏感材料
+assets/
+*.env
+.env.*
+
+# OS
+.DS_Store
+
+# 临时截图（含个人信息）
+/tmp/
+screenshots/
