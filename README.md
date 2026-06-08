@@ -28,6 +28,8 @@ edu-sweep/
 ├── README.md           # 本文件
 ├── TRACKER.md          # 总览看板（状态一览）
 ├── profile.md          # 申请人资产与约束
+├── reports/            # 状态报告（关键步骤 + 待办）
+│   └── cursor-sweep-report.md
 ├── platforms/          # 各平台详细日志（一平台一文件）
 │   ├── cursor.md
 │   ├── azure-students.md

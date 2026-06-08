@@ -92,3 +92,5 @@
 ## 备注
 
 最高优先级；与 Windsurf 相比性价比最高。
+
+📋 **精简状态报告** → [reports/cursor-sweep-report.md](../reports/cursor-sweep-report.md)
