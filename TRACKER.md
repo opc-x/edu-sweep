@@ -20,7 +20,7 @@
 
 | # | 平台 | 预期收益 | 状态 | 难度 | 日志 |
 |---|------|----------|------|------|------|
-| 1 | [Cursor 学生计划](platforms/cursor.md) | 12mo Pro ≈ $240 + $20/mo 额度 | `blocked` | ⭐ | SheerID 邮件验证失败，待人工 |
+| 1 | [Cursor 学生计划](platforms/cursor.md) | 12mo Pro ≈ $240 + $20/mo 额度 | `in_progress` | ⭐ | SheerID 工单已提交，等回复 |
 | 2 | [Azure for Students](platforms/azure-students.md) | $100/年 云积分 | `in_progress` | ⭐ | 页面已确认，待 Sign up |
 | 3 | [Anthropic API 新用户](platforms/anthropic-api.md) | ~$5 注册积分 | `blocked` | ⭐ | 需登录+手机验证 |
 | 4 | [Anthropic Student Builders](platforms/anthropic-builders.md) | ~$50 API 积分 | `pending` | ⭐⭐⭐ | platforms/anthropic-builders.md |

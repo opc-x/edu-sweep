@@ -36,6 +36,14 @@
 
 ## 尝试记录
 
+### 2026-06-08 — 第 4 次（SheerID 工单已提交）
+
+- **操作**：填写并提交 https://support.sheerid.com/en-US/help-center/contact-form
+- **结果**：✅ 页面显示 **"We received your message"**
+- **联系邮箱**：jcui1@my.hpu.edu
+- **Subject**：Cursor student verification failed - request manual document review (HPU)
+- **等待**：SheerID 1–数个工作日邮件回复；回复后附学生证 + 在读证明
+
 ### 2026-06-08 — 第 3 次（提交 + 邮件验证失败）
 
 - **操作**：填 DOB `1990-01-22`，提交表单 → 收邮件 `verify@sheerid.com` → 点 Finish Verifying 链接
@@ -46,10 +54,10 @@
   - 尝试了 2 个 verificationId 均失败
   - 在读证明 Spring 2026 已于 5/10 结束，学生证无日期 — 即使走人工也可能被拒
 - **下一步**：
-  1. 联系 SheerID 人工审核：https://support.sheerid.com/en-US/help-center/contact-form
-  2. 或 Cursor 论坛帖：https://forum.cursor.com/t/student-verification-issues/133734
-  3. **暂停重复提交**（防 Verification Limit Exceeded）
-  4. 向 HPU 要 Summer/Fall 2026 在读证明后再申
+  1. ✅ 已预填 SheerID **在线**工单（`assets/cursor/sheerid-support-draft.txt`）→ 浏览器里点 **Send**
+  2. 或 Cursor 论坛：https://forum.cursor.com/t/student-verification-issues/133734
+  3. **暂停** SheerID 自动流程重复提交
+  4. 向 HPU 要 Summer/Fall 2026 在读证明（他们回信后要附件）
 
 ### 2026-06-08 — 第 2 次（SheerID）
 
