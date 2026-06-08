@@ -14,12 +14,13 @@
 
 | 项目 | 值 | 备注 |
 |------|-----|------|
-| **实际居住地** | 泰国 | 2026-06-08 用户确认 |
-| GitHub Billing 地址 | Manila, Philippines | 可能与实际不符，部分平台可能校验 |
+| **实际居住地** | **泰国 (Thailand)** | 2026-06-08 用户确认（此前误记为菲律宾） |
+| GitHub Billing 地址 | Manila, Philippines | 与泰国实际居住地不一致，部分平台可能校验 |
 | 时区 | 泰国 (ICT, UTC+7) | |
 
 ## 已知历史问题
 
+- **HPU Google Workspace 禁用 AI Studio**：`jcui1@my.hpu.edu` 访问 aistudio.google.com 返回 `ServiceNotAllowed` → Gemini API 须用**个人 Gmail**
 - GitHub Student Pack：多次被拒（远程就读 + 地理校验 + 材料缺 online 字样 + 可能 VPN）
 - GitHub Copilot Student：新注册暂停（2026/4 起）
 - OpenAI Codex $100：要求居住美国/加拿大 → **泰国不符合**

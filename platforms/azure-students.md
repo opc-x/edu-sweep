@@ -2,7 +2,7 @@
 
 | 字段 | 值 |
 |------|-----|
-| 状态 | `pending` |
+| 状态 | `in_progress` |
 | 优先级 | P0 #2 |
 | 链接 | https://azure.microsoft.com/en-us/free/students |
 | 开始时间 | — |
@@ -34,7 +34,15 @@
 
 ## 尝试记录
 
-（待执行）
+### 2026-06-08 — 第 1 次
+
+- **操作**：访问 https://azure.microsoft.com/en-us/free/students
+- **结果**：✅ 页面确认 — $100/12mo、无需信用卡、全日制大学生、学校邮箱注册、每年可续
+- **卡点**：尚未点击 Sign up；需 Microsoft 账号 + 学生验证
+- **下一步**：
+  1. 用 HPU 邮箱创建/登录 Microsoft 账号
+  2. 点 Sign up 完成学生验证
+  3. 记录订阅 ID 和积分余额
 
 ## 备注
 

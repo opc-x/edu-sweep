@@ -2,7 +2,7 @@
 
 | 字段 | 值 |
 |------|-----|
-| 状态 | `in_progress` |
+| 状态 | `blocked` |
 | 优先级 | P0 #1 |
 | 链接 | https://cursor.com/students |
 | 开始时间 | 2026-06-08 |
@@ -38,10 +38,13 @@
 
 ### 2026-06-08 — 第 1 次
 
-- **操作**：（进行中）
-- **结果**：
-- **卡点**：
+- **操作**：打开 https://cursor.com/students → 点 Apply → 跳转 `authenticator.cursor.sh` 登录页
+- **结果**：未登录 Cursor；页面要求 Email / Google / GitHub / Apple 登录
+- **卡点**：**必须用 `jcui1@my.hpu.edu` 注册/登录 Cursor**（FAQ 写明邮箱需与学校邮箱一致）；需用户本人在浏览器完成 OAuth
 - **下一步**：
+  1. 用 HPU 邮箱注册 Cursor（或 Google 登录选 jcui1@my.hpu.edu）
+  2. 登录后 Dashboard → Settings → Students → SheerID 验证
+  3. 上传 HPU 在读证明/课表（最好含 online learning 字样）
 
 ## 截图/凭证
 

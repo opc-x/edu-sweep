@@ -2,7 +2,7 @@
 
 | 字段 | 值 |
 |------|-----|
-| 状态 | `pending` |
+| 状态 | `blocked` |
 | 优先级 | P0 #3 |
 | 链接 | https://console.anthropic.com |
 | 开始时间 | — |
@@ -24,4 +24,9 @@
 
 ## 尝试记录
 
-（待执行）
+### 2026-06-08 — 第 1 次
+
+- **操作**：访问 https://console.anthropic.com → 跳转 `platform.claude.com/login`
+- **结果**：登录页 — Google / Email / SSO
+- **卡点**：需用户登录 + 手机验证才能领 ~$5 新用户积分
+- **下一步**：用常用邮箱注册，完成手机验证，14 天内花掉 $5
