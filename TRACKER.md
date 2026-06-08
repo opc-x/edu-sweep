@@ -10,7 +10,7 @@
 | 成功 | 0 |
 | 进行中 | 2 |
 | 失败 | 0 |
-| 卡住 | 3 |
+| 卡住 | 4 |
 | 跳过 | 3 |
 | 待办 | 10 |
 
@@ -20,7 +20,7 @@
 
 | # | 平台 | 预期收益 | 状态 | 难度 | 日志 |
 |---|------|----------|------|------|------|
-| 1 | [Cursor 学生计划](platforms/cursor.md) | 12mo Pro ≈ $240 + $20/mo 额度 | `blocked` | ⭐ | 需 HPU 邮箱登录 Cursor |
+| 1 | [Cursor 学生计划](platforms/cursor.md) | 12mo Pro ≈ $240 + $20/mo 额度 | `blocked` | ⭐ | SheerID 邮件验证失败，待人工 |
 | 2 | [Azure for Students](platforms/azure-students.md) | $100/年 云积分 | `in_progress` | ⭐ | 页面已确认，待 Sign up |
 | 3 | [Anthropic API 新用户](platforms/anthropic-api.md) | ~$5 注册积分 | `blocked` | ⭐ | 需登录+手机验证 |
 | 4 | [Anthropic Student Builders](platforms/anthropic-builders.md) | ~$50 API 积分 | `pending` | ⭐⭐⭐ | platforms/anthropic-builders.md |
@@ -45,3 +45,4 @@
 |------|------|
 | 2026-06-08 | 项目创建；居住地更正为泰国；队列初始化 |
 | 2026-06-08 | 首轮探测：Cursor/Anthropic 需登录；Gemini 被 HPU Workspace 封；Azure/Bolt 页面确认 |
+| 2026-06-08 | Cursor SheerID 提交成功但邮件链接验证失败（HPU 邮箱环） |

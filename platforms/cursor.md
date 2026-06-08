@@ -2,7 +2,7 @@
 
 | 字段 | 值 |
 |------|-----|
-| 状态 | `blocked` |
+| 状态 | `in_progress` |
 | 优先级 | P0 #1 |
 | 链接 | https://cursor.com/students |
 | 开始时间 | 2026-06-08 |
@@ -35,6 +35,37 @@
 5. **设 11 个月后取消提醒**（否则 $20/mo 自动续费）
 
 ## 尝试记录
+
+### 2026-06-08 — 第 3 次（提交 + 邮件验证失败）
+
+- **操作**：填 DOB `1990-01-22`，提交表单 → 收邮件 `verify@sheerid.com` → 点 Finish Verifying 链接
+- **结果**：❌ **Error: We are unable to verify you at this time**
+- **分析**：
+  - Cursor 已用 `jcui1@my.hpu.edu` 登录 ✅
+  - SheerID **邮件环验证**对 HPU `my.hpu.edu` 即时失败，**未进入文档上传步骤**
+  - 尝试了 2 个 verificationId 均失败
+  - 在读证明 Spring 2026 已于 5/10 结束，学生证无日期 — 即使走人工也可能被拒
+- **下一步**：
+  1. 联系 SheerID 人工审核：https://support.sheerid.com/en-US/help-center/contact-form
+  2. 或 Cursor 论坛帖：https://forum.cursor.com/t/student-verification-issues/133734
+  3. **暂停重复提交**（防 Verification Limit Exceeded）
+  4. 向 HPU 要 Summer/Fall 2026 在读证明后再申
+
+### 2026-06-08 — 第 2 次（SheerID）
+
+- **操作**：打开 SheerID 链接，预填表单
+- **已填**：
+  - Country: **United States**（学校所在国，不是泰国）
+  - School: **Hawaii Pacific University, Honolulu, HI**
+  - Name: **Jianchen Cui**
+  - Email: **jcui1@my.hpu.edu**
+- **材料已备**（`assets/cursor/`，gitignore）：
+  - `student-id-front.png` — Jianchen Cui, 03213770, HPU
+  - `enrollment-spring2026.pdf` — Spring 2026 全日制 12 学分（⚠️ 学期 5/10 已结束，可能被要求补 Summer/Fall 证明）
+- **待用户填**：Date of birth（出生月/日/年）— **唯一卡点**
+- **Stripe 绑卡**：UnionBank Visa Debit 可用；**勿在聊天发 CVV**
+- **卡点**：SheerID 这步**不要卡**；菲律宾 Visa 留给后面 Stripe 绑卡用
+- **下一步**：填 DOB → Verify → 可能收 HPU 邮箱验证邮件或要求上传在读证明
 
 ### 2026-06-08 — 第 1 次
 
